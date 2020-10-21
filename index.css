@@ -46,3 +46,35 @@ nav {
     height: 30px;
     width: 30px;
 }
+/* main container*/
+
+.pageContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.content{
+width: 1000px;
+}
+.slideBar{
+
+}
+.secondPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-content: center;
+}
+.logo{
+height: 80px;
+width: 80px;
+}
+.channel{
+    display: column;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin-left:10px;
+}
+
+
+

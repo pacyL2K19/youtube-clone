@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Youtube clone</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-        <!-- I suggest we use the flex displaying to better handle the direction and sizes of boxes -->
-        <nav>
-            <!-- In the navbar, we first have image, the first is the 3 bands and the secon is the logo -->
-            <div class="logo-container">
-                <img class="logo" src = './img//youtube.png' alt = 'logo' /><span>Youtube</span>
-            </div>
-            <input class="search" type="text" name="search" placeholder="Search"><span><button class="btn-search" >Search</button></span>
-            <div class="btn-section">
-                <img src="./img/videoIcon.png" alt = 'icons' class="icons" />
-                <img src="./img/menuIcon.png" alt = 'icons' class="icons" />
-                <img src="./img/notifIcon.png" alt = 'icons' class="icons" />
-                <!-- <button>upload</button>
+  <head>
+    <title>Youtube clone</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- I suggest we use the flex displaying to better handle the direction and sizes of boxes -->
+    <nav>
+      <!-- In the navbar, we first have image, the first is the 3 bands and the secon is the logo -->
+      <div class="logo-container">
+        <img class="logo" src="./img//youtube.png" alt="logo" /><span
+          >Youtube</span
+        >
+      </div>
+      <input
+        class="search"
+        type="text"
+        name="search"
+        placeholder="Search"
+      /><span><button class="btn-search">Search</button></span>
+      <div class="btn-section">
+        <img src="./img/videoIcon.png" alt="icons" class="icons" />
+        <img src="./img/menuIcon.png" alt="icons" class="icons" />
+        <img src="./img/notifIcon.png" alt="icons" class="icons" />
+        <!-- <button>upload</button>
                 <button>Signin</button> -->
-            </div>
-            
-        </nav>
+      </div>
+    </nav>
+    <div class="pageContent">
+      <div class="content">
         <div class="VideoContainer">
-            <video width="320" height="240" controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-              Your browser does not support the video tag.
-              </video>
-            <h1>Contributing to Open Source Part I: The Easy Way</h1>
+          <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4" />
+            <source src="movie.ogg" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
+          <h1>Contributing to Open Source Part I: The Easy Way</h1>
         </div>
-    </body>
+        <div class="secondPart">
+          <img src="./img/logo.png" alt="icons" class="logo" />
+          <div class="channel">
+            <p>The oden Project</p>
+            <button>subiscribe</button>
+          </div>
+          <div class="channel">
+            <p></p>
+            <p class="view">50000 Views</p>
+          </div>
+        </div>
+        <div class="iconPart"></div>
+        <div class="description">
+          <h3>Published on Feb 27, 2014</h3>
+          <p>
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking a
+            repo", or even touching Git outside of Github. I'll also describe
+            what kinds of contributions open source software projects are
+            typically looking for. As an example, I use submitting a student
+            solution to a web development exercise from The Odin Project, a free
+            online curriculum for learning web development with Ruby on Rails.
+            You can find more information about that project at
+            http://theodinproject.com.
+          </p>
+          <br />
+          <a>show more</a>
+        </div>
+      </div>
+      <div class="slideBar"></div>
+    </div>
+  </body>
 </html>
