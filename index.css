@@ -3,11 +3,46 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
-    background-color: blue;
+
 }
+/* ------------------- Logo styles ---------------------*/
 .logo{
-    
+    height: 30px;
+    width: 35px;
 }
+.logo-container {
+    flex : 1;
+    padding: 10px;
+}
+.logo-container span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    align-self: center;
+    margin-top: -10px;
+}
+/* ----------------------- */
 .search{
     align-self: center;
+    flex: 2;
+    height: 30px;
+}
+
+.btn-search {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.btn-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
 }

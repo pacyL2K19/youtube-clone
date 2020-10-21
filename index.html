@@ -9,11 +9,18 @@
         <!-- I suggest we use the flex displaying to better handle the direction and sizes of boxes -->
         <nav>
             <!-- In the navbar, we first have image, the first is the 3 bands and the secon is the logo -->
-            <img class="logo" src = '' alt = 'three bands img' />
-            <input class="search" type="text" name="search" placeholder="Search"> 
-            <button >Search</button>
-            <button>upload</button>
-            <button>Signin</button>
+            <div class="logo-container">
+                <img class="logo" src = './img//youtube.png' alt = 'logo' /><span>Youtube</span>
+            </div>
+            <input class="search" type="text" name="search" placeholder="Search"><span><button class="btn-search" >Search</button></span>
+            <div class="btn-section">
+                <img src="./img/videoIcon.png" alt = 'icons' class="icons" />
+                <img src="./img/menuIcon.png" alt = 'icons' class="icons" />
+                <img src="./img/notifIcon.png" alt = 'icons' class="icons" />
+                <!-- <button>upload</button>
+                <button>Signin</button> -->
+            </div>
+            
         </nav>
         <div class="VideoContainer">
             <video width="320" height="240" controls>
