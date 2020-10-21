@@ -1,4 +1,13 @@
+
 nav {
     display: flex;
     flex-direction: row;
+    flex-wrap:nowrap;
+    background-color: blue;
+}
+.logo{
+    
+}
+.search{
+    align-self: center;
 }
