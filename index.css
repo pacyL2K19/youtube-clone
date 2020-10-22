@@ -3,23 +3,31 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
+}
 
+.avatar {
+    height: 30px;
+    width: 30px;
 }
 /* ------------------- Logo styles ---------------------*/
-.logo{
+/* .logo{
     height: 30px;
-    width: 35px;
+} */
+
+#logo {
+    align-self: center;
 }
+
 .logo-container {
     flex : 1;
-    padding: 10px;
+    padding: 15px;
 }
 .logo-container span {
     margin-left: 10px;
     font-weight: bold;
     font-size: 22px;
     align-self: center;
-    margin-top: -10px;
+    align-self: center;
 }
 /* ----------------------- */
 .search{
@@ -45,6 +53,7 @@ nav {
 .icons {
     height: 30px;
     width: 30px;
+    opacity: 0.7;
 }
 /* main container*/
 
@@ -52,12 +61,17 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 3%;
 }
 .content{
-width: 1000px;
+    width: 65%;
+    padding : 1%;
 }
 .slideBar{
-
+    display: flex;
+    flex : 1;
 }
 .secondPart{
     display: flex;
@@ -76,5 +90,19 @@ width: 80px;
     margin-left:10px;
 }
 
+/* ------------- Video content elements  -------------------*/
+.video-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+.sub-titles {
+    display: flex;
+    flex-direction: row;
+}
 
+.details {
+    width: 45%;
+}
