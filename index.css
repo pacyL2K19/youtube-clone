@@ -1,3 +1,9 @@
+/* General setting to be put here*/
+body {
+    font-family: sans-serif;
+}
+/* ------------------------     ---------------*/
+
 nav {
   display: flex;
   flex-direction: row;
@@ -49,8 +55,8 @@ nav {
 }
 
 .icons {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   opacity: 0.7;
 }
 /* main container*/
@@ -64,7 +70,7 @@ nav {
   padding-top: 3%;
   display: grid;
   grid-gap: 20px;
-grid-template-columns: 7fr 2fr;
+  grid-template-columns: 7fr 4fr;
 }
 .content {
 width: 95%;
@@ -74,7 +80,7 @@ width: 95%;
 }
 .slideBar {
     grid-column: 2;
-  grid-row: 1;  
+    grid-row: 1;  
 }
 .slide-main{
     padding-top: 10px;
@@ -84,12 +90,13 @@ width: 95%;
 }
 .slide-imgContainer{
     grid-column: 1;
-  grid-row: 1;
+    grid-row: 1;
+    margin-right: 10px;
 }
 .slide-img{
-height: 150px;
-width: 150px;
-
+    height: 120px;
+    width: 180px;
+    margin-bottom: 10px;
 }
 .slide-detail{
     grid-column: 2;
@@ -102,15 +109,17 @@ width: 150px;
   flex-wrap: nowrap;
   align-content: center;
 }
-.logo {
-  height: 80px;
-  width: 80px;
+.logo-channel {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  border-radius: 35px;
 }
 .channel {
-  display: column;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-left: 10px;
+  justify-content: space-between;
 }
 
 /* ------------- Video content elements  -------------------*/
@@ -122,17 +131,74 @@ width: 150px;
 }
 
 .sub-title {
-  display: grid;
-  grid-gap: 5px;
-grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  align-items: center;
 }
 
 .details {
   width: 45%;
-  grid-column: 1;
-  grid-row: 1;
+  /* grid-column: 1; */
+  /* grid-row: 1; */
+}
+.details p {
+    color: rgb(136, 118, 118);
 }
 .icons-video{
-    grid-column: 2;
-    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons-with-numbers {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.channel button {
+    float: right;
+    width: 40%;
+    margin-left: 60%;
+    height: 45%;
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+}
+
+.subscribe-btn {
+    display: flex;
+    flex: 1;
+}
+
+.description {
+    margin-left: 65px;
+}
+
+.slide-detail p {
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.header-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-comment p {
+    margin-right: 50px;
+    color: #856a6a;
+}
+
+.sort-by-btn {
+    height: 25px;
+    width: 25px;
+}
+
+.header-comment span {
+    margin-top: -5px;
 }
