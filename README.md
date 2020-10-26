@@ -47,7 +47,7 @@ Just ensure you have one or more web browsers
 
 Contributions, issues, and feature requests are welcome!
 Feel free to contribute 
-Feel free to check the [issues page](issues/2).
+Feel free to check the [issues page](https://github.com/pacyL2K19/youtube-clone/issues/2).
 
 ## Show your support
 
