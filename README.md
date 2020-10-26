@@ -3,76 +3,54 @@
 # Youtube Clone
 
 > This project is a youtube clone - just the frontend
-> Iy helps student to get confortable with basics of html and css and good practices
+> It helps student to get confortable with basics of html and css and good practices
 
-
-
-Additional description about the project and its features.
+This project doesn't manage actions when user click on buttons
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- CSS grid and Flex
+- No framework
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+N/A
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+1. Clone the project 
+  `$ git clone https://github.com/pacyL2K19/youtube-clone `
+2. Then run it in your prefered browser with the index.html file
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Just ensure you have one or more web browsers
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@pacyL2K19](https://github.com/pacyL2K19)
+- Twitter: [@PacifiqueLinja1](https://twitter.com/PacifiqueLinja1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pacifique-linjanja-2a565517b/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@ahzia](https://github.com/ahzia)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
+Feel free to contribute 
 Feel free to check the [issues page](issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
 
