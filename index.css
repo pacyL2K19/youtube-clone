@@ -15,9 +15,6 @@ nav {
   width: 30px;
 }
 /* ------------------- Logo styles ---------------------*/
-/* .logo{
-    height: 30px;
-} */
 
 #logo {
   align-self: center;
@@ -31,7 +28,6 @@ nav {
   margin-left: 10px;
   font-weight: bold;
   font-size: 22px;
-  align-self: center;
   align-self: center;
 }
 /* ----------------------- */
@@ -128,7 +124,6 @@ nav {
 }
 
 .sub-title {
-  /* display: grid;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr; */
   display: flex;
@@ -137,8 +132,6 @@ nav {
 
 .details {
   width: 45%;
-  /* grid-column: 1; */
-  /* grid-row: 1; */
 }
 .details p {
     color: rgb(136, 118, 118);
