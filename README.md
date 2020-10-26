@@ -2,28 +2,26 @@
 
 # Youtube Clone
 
-> This project is a youtube clone - just the frontend
-> It helps student to get confortable with basics of html and css and good practices
+> Youtube Clone is our First Project in Microverse
 
-This project doesn't manage actions when user click on buttons
+![screenshot](./app_screenshot.png)
+
+The goal of this project was to focus on making the media elements show up. We worked on embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
 
 ## Built With
 
 - HTML
 - CSS
-- CSS grid and Flex
-- No framework
 
 ## Live Demo
 
-N/A
-
+[Live Demo Link](https://pacyl2k19.github.io/youtube-clone/)
 
 ## Getting Started
 
 1. Clone the project 
   `$ git clone https://github.com/pacyL2K19/youtube-clone `
-2. Then run it in your prefered browser with the index.html file
+2. Then open index.html in your browser
 
 To get a local copy up and running follow these simple example steps.
 
@@ -42,14 +40,14 @@ Just ensure you have one or more web browsers
 👤 **Author2**
 
 - GitHub: [@ahzia](https://github.com/ahzia)
-- Twitter: [@PacifiqueLinja1](https://twitter.com/ZiaYousofi)
+- Twitter: [@ZiaYousofi](https://twitter.com/ZiaYousofi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ah-ziayosfi)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to contribute 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](issues/2).
 
 ## Show your support
 
