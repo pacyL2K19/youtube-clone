@@ -1,0 +1,232 @@
+/* General setting to be put here*/
+body {
+    font-family: sans-serif;
+}
+/* ------------------------     ---------------*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+}
+.menu {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+/* ------------------- Logo styles ---------------------*/
+
+.logo {
+  align-self: center;
+  height: 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 15px;
+}
+.logo-container span {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  align-self: center;
+}
+/* ----------------------- */
+.search {
+  align-self: center;
+  flex: 2;
+  height: 30px;
+}
+
+.btn-search {
+  height: 35px;
+  margin-top: 10px;
+}
+
+.btn-section {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+  opacity: 0.7;
+}
+/* main container*/
+
+.pageContent {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 3%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 7fr 4fr;
+}
+.content {
+  width: 95%;
+  padding: 1%;
+  grid-column: 1;
+  grid-row: 1;
+}
+.slideBar {
+    grid-column: 2;
+    grid-row: 1;  
+}
+.slide-main{
+    padding-top: 10px;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 2fr;
+}
+.slide-imgContainer{
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 10px;
+}
+.slide-img{
+    height: 120px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.slide-detail{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.secondPart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.logo-channel {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  border-radius: 35px;
+}
+.channel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* ------------- Video content elements  -------------------*/
+.video-title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.video-play {
+  height: 400px;
+  width: 100%;
+}
+
+.sub-title {
+  grid-gap: 2px;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  width: 45%;
+}
+.details p {
+    color: rgb(136, 118, 118);
+}
+.icons-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons-with-numbers {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.channel button {
+    float: right;
+    width: 40%;
+    margin-left: 60%;
+    height: 45%;
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+}
+
+.subscribe-btn {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.subscribe-btn img {
+  height: 40px;
+  width: 120px;
+}
+
+.description {
+    margin-left: 65px;
+}
+
+.slide-detail p {
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.header-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-comment p {
+    margin-right: 50px;
+    color: #856a6a;
+}
+
+.sort-by-btn {
+    height: 25px;
+    width: 25px;
+}
+
+.header-comment span {
+    margin-top: -5px;
+}
+
+.comment-user {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+}
+
+.channel-details {
+  display: flex;
+  flex: 1;
+}
+
+.channel-subscribers {
+  color: #ada5a5;
+}
+
+.comments {
+  color: #ada5a5;
+}
