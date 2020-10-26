@@ -217,3 +217,16 @@ nav {
   flex: 1;
   margin-top: 10px;
 }
+
+.channel-details {
+  display: flex;
+  flex: 1;
+}
+
+.channel-subscribers {
+  color: #ada5a5;
+}
+
+.comments {
+  color: #ada5a5;
+}
