@@ -16,7 +16,7 @@ nav {
 }
 /* ------------------- Logo styles ---------------------*/
 
-#logo {
+.logo {
   align-self: center;
 }
 
@@ -125,7 +125,7 @@ nav {
 
 .sub-title {
   grid-gap: 2px;
-  grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr 1fr;
   display: flex;
   align-items: center;
 }
