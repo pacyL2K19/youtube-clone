@@ -62,9 +62,6 @@ nav {
 /* main container*/
 
 .pageContent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   padding-left: 7.5%;
   padding-right: 7.5%;
   padding-top: 3%;
@@ -73,7 +70,7 @@ nav {
   grid-template-columns: 7fr 4fr;
 }
 .content {
-width: 95%;
+  width: 95%;
   padding: 1%;
   grid-column: 1;
   grid-row: 1;
