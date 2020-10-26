@@ -23,6 +23,7 @@ nav {
 
 .logo {
   align-self: center;
+  height: 20px;
 }
 
 .logo-container {
@@ -130,6 +131,11 @@ nav {
   padding-bottom: 5px;
 }
 
+.video-play {
+  height: 400px;
+  width: 100%;
+}
+
 .sub-title {
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr;
@@ -204,4 +210,10 @@ nav {
 
 .header-comment span {
     margin-top: -5px;
+}
+
+.comment-user {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
 }
