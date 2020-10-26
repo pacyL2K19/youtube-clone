@@ -42,6 +42,8 @@ Just ensure you have one or more web browsers
 👤 **Author2**
 
 - GitHub: [@ahzia](https://github.com/ahzia)
+- Twitter: [@PacifiqueLinja1](https://twitter.com/ZiaYousofi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ah-ziayosfi)
 
 ## 🤝 Contributing
 
